@@ -10,7 +10,7 @@ body{
     background-color: #1A0B2E;
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
-
+}
 body {
     background-color: #0f0826;
     color: #FFFFFF;
@@ -258,15 +258,7 @@ nav {
 }
 
 
-@media (max-width: 992px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-    .box-1, .box-4 {
-        grid-row: auto;
-        grid-column: auto;
-    }
-}
+
 
 .grad-icon {
     width: 50px;
@@ -330,6 +322,84 @@ nav {
     align-items: center;
     gap: 8px;
 }
+
+
+.host-detail {
+    width: 1100px;
+    margin: 0 auto;    
+    display: flex;
+    align-items: center;  
+    justify-content: start;
+    padding: 40px;     
+    background-color: #351165;
+    color: white;   
+    border-radius: 15px;
+}
+
+.meet-the-host {    
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social-icon{
+    display: flex; 
+    gap: 15px;        
+    margin-top: 15px;  
+}
+
+
+.footer-section {
+    background-color: #1a083d;
+    background-image: url(./images/footer-bg.png); 
+    background-position: left center, right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-section h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.footer-section h1 span {
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.link-item img {
+    width: 20px; 
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
 
 
 
